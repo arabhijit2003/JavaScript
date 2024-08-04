@@ -46,3 +46,6 @@ const obj2 = {3:'c', 4:'d'}
 const obj4 = {...obj1,...obj2}
 console.log(obj4);
 
+//APIs 
+format
+[{} {} {}] //array of obj

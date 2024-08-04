@@ -44,5 +44,18 @@ const obj2 = {3:'c', 4:'d'}
 
 //most convenient is to use spread 
 const obj4 = {...obj1,...obj2}
-console.log(obj4);
+//console.log(obj4);
+
+//destructuring of arrays
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+    }
+
+const {courseInstructor : inst} = course
+//console.log(courseInstructor);
+console.log(inst);
+
+
 
