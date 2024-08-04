@@ -23,3 +23,14 @@ jsUser.greeting = function(){
 }
 
 console.log(jsUser.greeting());
+ 
+objects inside object 
+// const user = {
+//     email : 'abhijit@gmail.com',
+//     fullName : {
+//         firstName : 'Abhijit',
+//         lastName : 'Roy'
+//     }
+// }
+
+// console.log(user.fullName);
