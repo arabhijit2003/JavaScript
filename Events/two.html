@@ -17,7 +17,13 @@
     }
     const changeText = function(){document.querySelector('h1').innerHTML = 'Text changed'}
     
-    setTimeout(changeText,2000)
+    const changeme = setTimeout(changeText,2000)
+    const stopButton = document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeme)
+        console.log('TimedOut');
+        
+    })
+    
 
 </script>
 </html>
